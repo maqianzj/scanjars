@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'application'
+
+group = 'cn.halcyon'
+archivesBaseName = 'scanjars'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.6'
+targetCompatibility = '1.6'
+mainClassName = "cn.halcyon.tools.ScanJars"
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compile 'commons-io:commons-io:2.4'
+    compile 'args4j:args4j-tools:2.0.16'
+}

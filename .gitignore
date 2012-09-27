@@ -1,0 +1,14 @@
+*.svn*
+lib
+build
+bin
+out
+.idea
+.gradle
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings
+.apt_generated
